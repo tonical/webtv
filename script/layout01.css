@@ -1,0 +1,54 @@
+.quadPagina{
+   WIDTH: 100%;
+   HEIGHT: 100%;
+   BACKGROUND: black;
+   FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: black;
+}
+.quadNavega {
+   WIDTH:750px;
+   TEXT-ALIGN: center;
+   BACKGROUND: steelblue;
+   PADDING: 10px;
+   HEIGHT: 20px;
+   FONT-SIZE: 16;
+   COLOR: white;
+}
+.quadTopo {
+   WIDTH:750px;
+   TEXT-ALIGN: center;
+   BACKGROUND: steelblue;
+   PADDING: 10px;
+   HEIGHT: 30px;
+   FONT-SIZE: 14;
+}
+.quadTitulo {
+   WIDTH:750px;
+   TEXT-ALIGN:center;
+   BACKGROUND: skyblue;
+   PADDING: 10px;
+   HEIGHT: 15px;
+   FONT-SIZE: 16;
+}
+.quadTexto {
+    WIDTH:750px;
+    HEIGHT: 600px;
+    FONT-SIZE: 14px;
+    PADDING: 10px;
+    TEXT-ALIGN: left;
+    BACKGROUND-COLOR: #f0ffff;
+    BORDER: #000000 0px solid;
+}
+A {
+	COLOR: #0000FF; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+.quadBase {
+   WIDTH:750px;
+   TEXT-ALIGN:center;
+   BACKGROUND: skyblue;
+   PADDING: 10px;
+   HEIGHT: 15px;
+   FONT-SIZE: 12;
+}

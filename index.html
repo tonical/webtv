@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Almeida Home Page | Educa&ccedil;&atilde;o profissional e &agrave;reas afins - Eletrot&eacute;cnica, Eletr&ocirc;nica, Automa&ccedil;&atilde;o...</title>
+  <link rel="stylesheet" type="text/css" href="./css/cssaca02.css" media="screen" />
+   	<meta name="Author" content="Antonio Almeida">
+   	<meta name="reply-to" content="tonical@cefetba.br">
+   	<meta name="author" content="Script desenvolvido por Tenko - Adaptado por Antonio Almeida">
+   	<meta name="description" content="TV Player">
+   	<meta name="keywords" content="html, xhtml, css, w3c">
+   	<meta name="revisit" content="1 day">
+   	<meta http-equiv="pragma" content="no-cache">
+   	<meta name="robot" content="index, follow">
+<!-- Script jQuery -->
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script src="./script/jquery-latest.min.js"></script>
+<script src="./script/jquery-latest.js"></script>
+<!-- Exibe Coluna -->
+<script>
+function resizeSidebar() {
+ var window_width = $(window).width();
+ 
+ if ( window_width < 800 ) {
+ $('.site-right-col').addClass('site-right-col-resized');
+ $('.site-left-col').addClass('site-left-col-resized');
+ $('.site-left-col-inner').addClass('site-left-col-inner-resized');
+ } else {
+ $('.site-right-col').removeClass('site-right-col-resized');
+ $('.site-left-col').removeClass('site-left-col-resized');
+ $('.site-left-col-inner').removeClass('site-left-col-inner-resized');
+ }
+}
+ 
+jQuery(function(){
+ resizeSidebar();
+ 
+ $(window).resize(function(){
+ resizeSidebar();
+ });
+});
+</script>
+<!-- end Script jQuery -->
+
+<!-- Video Responsivo -->
+<style type="text/css">
+
+.video-container { 
+ position: relative; 
+ padding-bottom: 56.25%; 
+ height: 0; 
+ overflow: hidden; 
+ max-width: 100%; 
+ height: auto;
+
+} 
+.video-container iframe, 
+.video-container object, 
+.video-container embed {
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ width: 100%; 
+ height: 100%; 
+}
+</style>
+
+</head>
+<!-- end Video Responsivo -->
+<!-- Site -->
+<body>
+<div class="principal">
+<!-- quadTopo -->
+<div class="quadTopo" align="center">
+<em><h1>almhp.com</h1></em>
+</div>
+<!-- quadMenuTop -->
+<div class="menuTopo" align="center">
+   <p><a href="http://www.almhp.com" style="text-decoration:none" target="_self"><img src="./image/btnindice.png" alt="indice"></a></p>
+</div>
+<!-- quadTitulo -->
+<div class="quadTitulo" align="center">
+     <p><em><h1>Web TV</h1></em></p>
+</div>
+<!-- Coluna Esquerda -->
+<!-- Palco -->					
+<div class="quadCorpo" align="left">
+<main>
+<section>
+<!-- menuDropdown -->
+<div class="dropdown">
+ <a href="./indice.html"><img src="./image/menubar.png" alt="Dropmenu" align="left"></a> 
+  <div class="dropdown-content">
+	<a href="./alm-ebook-res/ebook-res.html" style="text-decoration:none" target="_self"><strong>e-Book - Resistores</strong></a>	
+	<a href="./alm-ebook-cap/ebook-cap.html" style="text-decoration:none" target="_self"><strong>e-Book - Capacitoress</strong></a>	
+	<a href="./alm-ebook-amp/ebook-amp.html" style="text-decoration:none" target="_self"><strong>e-Book - Amplificadores</strong></a>
+	<a href="./alm-ebook-cabos/ebook-cabos.html" style="text-decoration:none" target="_self"><strong>e-Book - Cabos e Conectores</strong></a>
+	<a href="./alm-audio-tsn/audio-tsn.html" style="text-decoration:none" target="_self"><strong>Áudios - Deuses da Guitarra</strong></a>	
+	<a href="./alm-video-solda/vsolda.html" style="text-decoration:none" target="_self"><strong>Vídeos - Soldagem SMD</strong></a>
+	<a href="./alm-video-tsn/vsonora.html" style="text-decoration:none" target="_self"><strong>Vídeos - Sonorização</strong></a>	
+	<a href="./alm-sobre/sobre.html" style="text-decoration:none" target="_self"><strong>Sobre</strong></a>
+  </div>
+</div>
+<!-- enDmenuDropdown -->
+
+</section>
+</main>
+</div>
+<!-- endPalco -->
+<!-- Rodapé -->
+<div class="band-dois" align="center">
+  <p><a href="http://html-color-codes.info" style="text-decoration:none" title="HTML color codes">HTML color codes</a></p>
+</div>
+<div class="band-um" align="left">
+   <p><a href="http://www.almhp.com" style="text-decoration:none" target="_self"><span class="zbvoltar">Voltar</span></a></p>
+</div>
+<div  class="quadBase" align="center">
+<nav class="menu">
+  <ul>
+     <li><a href="http://www.almhp.com/" style="text-decoration:none" target="_self">© Copyright 2018 - almhp.com</a></li>
+  </ul>
+ </nav><!-- end Menu -->
+</div><!-- end quadBase -->
+</div><!-- end Principal-->
+</center>
+</body>
+</html>
